@@ -155,7 +155,7 @@ main section .text-container p{
 }
 main section .text-container h3{
     font-size: 30px;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     font-weight: bold;
 }
 main section .star-text{
@@ -167,3 +167,56 @@ main section .star-text{
 }
 
 /* Footer */
+
+footer{
+    background-color: #23272a;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5%;
+}
+footer ul{
+    list-style-type: none;
+}
+footer .col.right li{
+    display: block;
+    margin-bottom: 3%;
+}
+
+footer .col.left li{
+    display: inline-block;
+    margin-right: 5%;
+}
+footer .col.right li{
+    margin: 10% 0;
+}
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+footer .language a{
+    text-decoration: none;
+    color: white;
+}
+footer .language{
+    margin-bottom: 5%;
+}
+footer h4{
+    font-size: 37px;
+    margin-bottom: 5%;
+    color: #8ea1e1;
+}
+footer h5{
+    font-size: 20px;
+    margin-bottom: 5%;
+    color: #8ea1e1;
+}
+footer .language img{
+    width: 7%;
+}
+footer .clearfix .col.left{
+    width: 30%;
+}
+footer .clearfix .col.right{
+    width: 17.5%;
+}

@@ -22,6 +22,7 @@ img{
 }
 .col{
     display: inline-block;
+    text-align: center;
 }
 .left{
     float: left;

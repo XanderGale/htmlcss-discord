@@ -172,7 +172,6 @@ footer{
     background-color: #23272a;
     color: white;
     font-size: 18px;
-    font-weight: bold;
     padding: 5%;
 }
 footer ul{
@@ -221,9 +220,17 @@ footer .clearfix .col.right{
     width: 17.5%;
 }
 .footer-last{
-    border-top: 1px solid #3a435d;
     padding: 5% 0;
 }
 footer .clearfix.footer-last .col{
     width: 10%;
+}
+footer .footer-menu{
+    border-bottom: 1px solid #3a435d;
+    padding: 5% 0;
+}
+footer .footer-menu .button.small{
+    font-size: 14px;
+    padding: 8%;
+    border-radius: 20px;
 }

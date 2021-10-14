@@ -44,6 +44,9 @@ img{
 .button-container{
     margin-top: 5%;
 }
+.button-container a{
+    display: inline-block;
+}
 
 /* Buttons */
 .button{
@@ -121,20 +124,14 @@ section {
 section .col img{
     vertical-align: middle;
 }
-section:nth-of-type(even){
+.bg:nth-of-type(odd){
     background-color: #f6f6f6;
 }
-section.clearfix:nth-of-type(odd) .col.left{
+section .col.img{
     width: 70%;
 }
-section.clearfix:nth-of-type(odd) .col.right{
+section .col.text{
     width: 30%;
-}
-section.clearfix:nth-of-type(even) .col.left{
-    width: 30%;
-}
-section.clearfix:nth-of-type(even) .col.right{
-    width: 70%;
 }
 section .col h2{
     font-size: 50px;
@@ -156,3 +153,17 @@ main section .text-container p{
     margin-bottom: 5%;
     font-weight: bold;
 }
+main section .text-container h3{
+    font-size: 30px;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+main section .star-text{
+    display: inline-block;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Footer */

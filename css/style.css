@@ -199,7 +199,7 @@ footer .language a{
     color: white;
 }
 footer .language{
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 footer h4{
     font-size: 37px;
@@ -219,4 +219,11 @@ footer .clearfix .col.left{
 }
 footer .clearfix .col.right{
     width: 17.5%;
+}
+.footer-last{
+    border-top: 1px solid #3a435d;
+    padding: 5% 0;
+}
+footer .clearfix.footer-last .col{
+    width: 10%;
 }

@@ -199,7 +199,7 @@ footer .language a{
     color: white;
 }
 footer .language{
-    margin-bottom: 8%;
+    margin: 8% 0;
 }
 footer h4{
     font-size: 37px;
@@ -229,6 +229,9 @@ footer .clearfix.footer-last .col{
 footer .footer-menu{
     border-bottom: 1px solid #3a435d;
     padding: 5% 0;
+}
+footer .footer-menu .col{
+    text-align: left;
 }
 footer .footer-menu .button.small{
     font-size: 14px;
